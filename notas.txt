@@ -53,3 +53,35 @@ README.md -> Es para editar o personalizar tu proyecto
 vite.config.js -> Configuración de vue
 
 ------------------------------------
+
+API Styles
+
+    Los componentes de Vue.js se pueden escribir en 2 APIS diferentes: Options API y Composition API
+    Options API está disponible desde Vue.js 2 mientras que Composition API desde la versión 2.7 y es la recomendada para proyectos con Vue 3
+
+Options API 
+
+    Se define la lógica de un componente utilizando una sintaxis de objeto. 
+    Algunos Devs con experiencia en lenguajes orientados a objetos encuentran esta forma más facil de aprender.
+
+Composition API 
+
+    Se definen los componentes utilizando Imports (Tanto para funciones de Vue con Librerias).
+    Composition API tiene 2 funciones para reactividad: reactive y ref
+    Si tienes experiencia con React esta forma puede resultar familiar en muchas cosas.
+
+
+Cual API utilizar: 
+    Composition API -> Permite tener código más re-utilizable y si el proyecto sera hecho en Vue
+
+        Se coloca setup en el 
+            <script setup>
+
+            </script>
+        
+    Options API -> Es recomendable si tu proyecto utilizara pequeñas piezas de Vue o escenarios no tan complejos, tambien si prefieres el estilo orientado a objetos.
+
+
+
+
+
