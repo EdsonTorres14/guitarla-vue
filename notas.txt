@@ -81,6 +81,21 @@ Cual API utilizar:
         
     Options API -> Es recomendable si tu proyecto utilizara pequeñas piezas de Vue o escenarios no tan complejos, tambien si prefieres el estilo orientado a objetos.
 
+------------------------------------
+
+State 
+
+    Determina la situación actual de nuestra aplicación.
+    El state o estado no es es siempre igual; tiende a cambiar en base a las interacciones del usuario (clicks, formularios, navegar en diferentes páginas).
+
+    Vue.js tiene un par de funciones que nos permiten declararlo y sobre todo identificar cuando el state ha cambiado:
+        -> ref y reactive, ambas se importan de vue, so diponibles con Composition API y una vez que el state cambie el DOM de tu aplicación se actualizará.
+
+        --> reactive: siempre es un objeto, (ideal para agrupar datos).
+        --> ref: trabja con tipos de datos como lo es arrays, booleans, strings.
+    
+    
+
 
 
 
