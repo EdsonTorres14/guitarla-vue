@@ -1,0 +1,25 @@
+EJECUTRA PROYECTO VUE -> npm run dev
+
+------------------------------------
+
+Single File Componets:
+
+- Vue utiliza componentes para la creación de aplicaciones y sitios web.
+
+ --> Un componente debe de tener la extensión .Vue
+    Un componente usualmente tiene 2 propósitos: ser re-utilizado o separar la funcionalidad; si se cumplen ambas es aún mejor.
+
+    <script>
+        Lógica
+    </script>
+
+    <template>
+        HTML
+    </template>
+
+    <style>
+        CSS/SCSS
+    </style>
+
+------------------------------------
+
