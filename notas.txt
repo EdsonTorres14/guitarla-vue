@@ -23,3 +23,33 @@ Single File Componets:
 
 ------------------------------------
 
+
+.vscode -> Nos muestra las extensiones para vue para instalar en visual.
+nodemodules -> Nos muestra los archivos o dependencias instalas con npm instal (se borra la carpeta para pasar el proyecto y con el comando de 
+    instalación se recupera por el archivo package.json).
+
+public -> Se colocan imagenes 
+
+src -> Funciones y más componentes
+    assets -> podemos colocar imagenes 
+    components ->  
+
+App.vue -> Es el componente principal
+
+main.js -> Tine importaciones para ejecutar el proyecto.
+
+style.css -> Estilos iniciales del proyecto
+
+index.html -> Es donde se carga el archivo vue
+
+gitignore -> Protege para que no se suban archivos 
+
+package-lock.json -> Son las dependencias de las dependencias
+
+package.json -> Son las dependencias 
+
+README.md -> Es para editar o personalizar tu proyecto
+
+vite.config.js -> Configuración de vue
+
+------------------------------------
