@@ -123,5 +123,16 @@ Props
     En caso de querer pasar fucniones se recomienda que sea por medio de un Component Event.
     Nunca deben modificar el state del componente hijo.
 
+------------------------------------
+Eventos 
+    Todas las aplicaciones requieren ciertas interacciones por parte del usuario. 
+    Presionar un botoón o link; llenar un formulario, son algunas de las acciones del DOM más comunes. 
+    Hace muy sencillo interactuar con ciertos eventos con la directiva v-on:
 
+    Tipos de eventos 
+    Hay dos tipos de eventos: Inline Handlers y Method Handlers.
+
+
+        Los Inline son tareas muy sencillas como cambiar a dark o light mode.
+        Los Method Handlers son muy útiles cuando realizarás diferentes acciones como validar los datos de un formulario.
 
