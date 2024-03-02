@@ -1,7 +1,6 @@
 EJECUTRA PROYECTO VUE -> npm run dev
 
 ------------------------------------
-
 Single File Componets:
 
 - Vue utiliza componentes para la creación de aplicaciones y sitios web.
@@ -22,8 +21,6 @@ Single File Componets:
     </style>
 
 ------------------------------------
-
-
 .vscode -> Nos muestra las extensiones para vue para instalar en visual.
 nodemodules -> Nos muestra los archivos o dependencias instalas con npm instal (se borra la carpeta para pasar el proyecto y con el comando de 
     instalación se recupera por el archivo package.json).
@@ -53,7 +50,6 @@ README.md -> Es para editar o personalizar tu proyecto
 vite.config.js -> Configuración de vue
 
 ------------------------------------
-
 API Styles
 
     Los componentes de Vue.js se pueden escribir en 2 APIS diferentes: Options API y Composition API
@@ -82,7 +78,6 @@ Cual API utilizar:
     Options API -> Es recomendable si tu proyecto utilizara pequeñas piezas de Vue o escenarios no tan complejos, tambien si prefieres el estilo orientado a objetos.
 
 ------------------------------------
-
 State 
 
     Determina la situación actual de nuestra aplicación.
@@ -136,3 +131,11 @@ Eventos
         Los Inline son tareas muy sencillas como cambiar a dark o light mode.
         Los Method Handlers son muy útiles cuando realizarás diferentes acciones como validar los datos de un formulario.
 
+------------------------------------
+Eventos para componentes
+
+    @click y @submit son eventos muy comunes en nuestros proyectos, debido a que el State de el proyecto no puede cambiarse en los Props lo ideal es registrar un Evento 
+    para el componente. 
+
+    Por default un evento que se asocia a un botón o formulario buscará una función en ese componente; pero 
+    para comunicarlo con el componente padre debemos utilizar una sintaxis especial llamada emit y registrar un componente o evento del componente.

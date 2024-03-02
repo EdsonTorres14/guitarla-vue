@@ -18,10 +18,9 @@ onMounted(() => {
     // state.guitarras = db
 })
 
-const incrementar = () => {
-    alert('Diste clic')
+const agregarCarrito = () => {
+    console.log('agregando...')
 }
-
 
 </script>
 
@@ -103,7 +102,7 @@ const incrementar = () => {
         <h2 class="text-center">Nuestra Colección</h2>
 
         <div class="row mt-5">
-            <Guitarra v-for="guitarra in guitarras" :guitarra="guitarra" />
+            <Guitarra v-for="guitarra in guitarras" :guitarra="guitarra" @agregar-carrito="agregarCarrito" />
         </div>
     </main>
 
