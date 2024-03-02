@@ -94,9 +94,29 @@ State
         --> reactive: siempre es un objeto, (ideal para agrupar datos).
         --> ref: trabja con tipos de datos como lo es arrays, booleans, strings.
     
+
+------------------------------------
+Directivas en vue.js 
+
+    Influenciadas por AngularJS las directivas de Vue.js es lo que llevan a este framework a un nuevo nivel. 
+    Las directivas en Vue.js siempre inician con v- y se colocan como atributos HTML. 
+
+    v-text
+    v-html 
+    v-show
+    v-if
+    v-else
+    v-else-if
+    v-for
+    v-on 
+    v-bind
+    v-model 
+    v-slot 
+    v-pre 
+    v-once 
+    v-memo 
+    v-cloak 
     
-
-
 
 
 
