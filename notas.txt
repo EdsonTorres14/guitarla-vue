@@ -116,7 +116,12 @@ Directivas en vue.js
     v-once 
     v-memo 
     v-cloak 
-    
+
+------------------------------------
+Props 
+    Se utilizan para pasar información entre componentes; estos props pueden ser datos estáticos o reactivos.
+    En caso de querer pasar fucniones se recomienda que sea por medio de un Component Event.
+    Nunca deben modificar el state del componente hijo.
 
 
 
