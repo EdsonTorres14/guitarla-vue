@@ -10,6 +10,7 @@ import Guitarra from './components/Guitarra.vue'
 // console.log(state.guitarras)
 
 const guitarras = ref([db])
+const carrito = ref([db])
 
 // console.log(guitarras.value)
 
@@ -19,7 +20,8 @@ onMounted(() => {
 })
 
 const agregarCarrito = (guitarra) => {
-    console.log(guitarra)
+    guitarra.cantidad = 1;
+    carrito.value.push(guitarra);
 }
 
 </script>
