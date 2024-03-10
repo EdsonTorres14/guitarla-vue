@@ -41,7 +41,9 @@ const props = defineProps({
                                                 <img class="img-fluid" :src="'/img/' + producto.imagen + '.jpg'"
                                                     :alt="'imagen guitarra ' + producto.nombre">
                                             </td>
-                                            <td>{{ producto.nombre }}</td>
+                                            <td>
+                                                {{ producto.nombre }}
+                                            </td>
                                             <td class="fw-bold">
                                                 ${{ producto.precio }}
                                             </td>
