@@ -12,7 +12,7 @@ import Footer from './components/Footer.vue'
 // console.log(state.guitarras)
 
 const guitarras = ref([db])
-const carrito = ref([db])
+const carrito = ref([])
 
 // console.log(guitarras.value)
 
@@ -29,7 +29,7 @@ const agregarCarrito = (guitarra) => {
 </script>
 
 <template>
-   <Header />
+    <Header :carrito="carrito" />
 
     <main class="container-xl mt-5">
         <h2 class="text-center">Nuestra Colección</h2>
