@@ -32,12 +32,16 @@ const agregarCarrito = (guitarra) => {
 
 }
 
-const decrementarCantidad = () => {
-    console.log('Menos..')
+const decrementarCantidad = (id) => {
+    const index = carrito.value.findIndex(producto => producto.id === id)
+    if (carrito.value[index].cantidad <= 1) return
+    carrito.value[index].cantidad--
 }
 
-const incrementarActividad = () => {
-    console.log('Mas..')
+const incrementarActividad = (id) => {
+    const index = carrito.value.findIndex(producto => producto.id === id)
+    if (carrito.value[index].cantidad >= 5) return
+    carrito.value[index].cantidad++
 }
 </script>
 
