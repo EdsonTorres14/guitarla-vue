@@ -1,5 +1,28 @@
 EJECUTRA PROYECTO VUE -> npm run dev
 
+
+------------------------------------
+Vue.js 
+
+Framework Progresivo de JavaScript (puede ser utilizado por proyectos simples hasta grandes sitios y aplicaciones web).
+Es versátil, accesible y de gran performace para crear interfaces de usuarios de sitios web.
+Vue es un framework de JavaScript para construir interfaces de usuario.
+
+Construido:
+    -> HTML 
+    -> CSS
+    -> JS 
+    -> Provee una sintaxis declarativa y basada en componentes que te ayuda a desarrollar de forma eficiente interfaces de usuario simples o complejas. 
+
+Excelente documentación.
+
+Hay pocos cambios entre las versiones, pero en versiones mayores si existen cambios. 
+
+Se necesita:
+    -> Vite para la mayoría de los proyectos y créate-vue
+    -> Vite requiere Node 14.18 o versiones más nuevas. 
+    -> Conocimiento en HTML, CSS y Js (ES6+)
+
 ------------------------------------
 Single File Componets:
 
